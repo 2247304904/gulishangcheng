@@ -11,10 +11,10 @@
 
     <modules>
         <module>mall-member</module>
-        <module>mall-product</module>
-        <module>mall-ware</module>
-        <module>mall-coupon</module>
-        <module>mall-order</module>
+<!--        <module>mall-product</module>-->
+<!--        <module>mall-ware</module>-->
+<!--        <module>mall-coupon</module>-->
+<!--        <module>mall-order</module>-->
         <module>renren-fast</module>
         <module>renren-generator</module>
     </modules>
