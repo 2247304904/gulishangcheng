@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zpy.mall</groupId>
-    <artifactId>mall-common</artifactId>
+    <artifactId>mall-order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mall-common</name>
-    <description>微服务通用模块 jar包管理</description>
+    <name>mall-order</name>
+    <description>商城-订单服务</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
