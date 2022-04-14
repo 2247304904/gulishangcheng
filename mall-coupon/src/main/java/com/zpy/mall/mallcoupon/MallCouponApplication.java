@@ -5,9 +5,30 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * 1.想要远程调用别的服务
- * 1）引入open-feign
- * 2) 编写一个接口 告诉springcloud 这个接口需要调用程服务
+ * 如何使用nacos配置中心
+ * <dependency>
+ *             <groupId>com.alibaba.cloud</groupId>
+ *             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+ *         </dependency>
+ *
+ * 创建一个bootstrap.properties
+ *
+ *  需要给配置中心添加数据集
+ *   data id    默认规则： 应用名.properties
+ *
+ *   在配置中动态修改获取值
+ *
+ *   动态刷新配置获取
+ *      引入注解
+ *      @RefreshScope 动态获取并刷新配置
+ *      @Vaule("${配置项的名}") 获取到配置
+ *      如果配置中心和当前应用配置文件中都配置了相同的项 优先使用配置中心的配置
+ *  细节
+ *      1.命名空间
+ *          默认 public(保留空间)
+ *      2.配置集
+ *      3.配置集ID
+ *      4.配置分组
  */
 
 @SpringBootApplication
