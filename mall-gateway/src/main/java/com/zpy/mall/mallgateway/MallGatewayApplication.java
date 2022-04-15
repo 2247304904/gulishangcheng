@@ -1,13 +1,13 @@
-package com.zpy.mall.mallgetway;
+package com.zpy.mall.mallgateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MallGetwayApplication {
+public class MallGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MallGetwayApplication.class, args);
+        SpringApplication.run(MallGatewayApplication.class, args);
     }
 
 }
